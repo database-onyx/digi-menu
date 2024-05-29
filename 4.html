@@ -110,24 +110,6 @@
                         <a class="dropdown-item" href="#COMBO2">Combo2</a>
                     </div>
                 </div>
-                <script>
-                    // Add event listener to the document to capture clicks on elements with the class 'clickable'
-                    document.addEventListener('click', function (event) {
-                        // Find the closest parent with the class 'clickable' to handle nested elements
-                        var target = event.target.closest('.clickable');
-                        if (target) {
-                            // Get the value of the 'data-for' attribute
-                            var inputId = target.getAttribute('data-for');
-                            // Find the input element with the matching ID
-                            var inputElement = document.getElementById(inputId);
-                            // Check if the input element exists and is a radio button
-                            if (inputElement && inputElement.type === 'radio') {
-                                // Set the radio button as checked
-                                inputElement.checked = true;
-                            }
-                        }
-                    });
-                </script>
                 <!-- Tab panes -->
                 <div class="tab-content slideanim slide">
                     <div id="all" class="tab-pane fade active show">
