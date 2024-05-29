@@ -18,7 +18,7 @@ document.getElementById('finishOrder').addEventListener('click', function() {
     }
 
     const message = `Orders From Table number : 1\n\n${selectedItems.join('\n')}`;
-    const phoneNumber = '919629636325'; // Replace with your WhatsApp number, ensure it's without '+' sign
+    const phoneNumber = '919600147626'; // Replace with your WhatsApp number, ensure it's without '+' sign
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
