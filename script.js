@@ -82,3 +82,16 @@ $(document).ready(function(){
   });
 
 })
+
+
+// clickable update
+document.addEventListener('click', function (event) {
+  var target = event.target.closest('.clickable');
+  if (target) {
+      var inputId = target.getAttribute('data-for');
+      var inputElement = document.getElementById(inputId);
+      if (inputElement && inputElement.type === 'radio') {
+          inputElement.checked = !inputElement.checked;
+      }
+  }
+});
