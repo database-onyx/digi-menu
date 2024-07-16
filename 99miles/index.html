@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>99Miles Review</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- <form method="post" action="https://script.google.com/macros/s/AKfycbwnT0ErVsuSdAc3cyJptGr1dwus4De03z2cj4aok4Ppd1nDpCVONbckbcbaYSRxYlDp/exec" onsubmit="handleSubmit(event)"> -->
+    <form method="post" action="https://script.google.com/macros/s/AKfycby5z0kOGshwEdvkr5qOu8HXA0kcmoEVP9qgSmbC9uRSuUWlF5ZX8BnbbCUKC31pdztKkQ/exec" onsubmit="handleSubmit(event)">
+    <div class="wrapper">
+        <div class="master">
+            <div class="logo">
+            
+            <h2 class="l99">99Miles </h2><p class="slogan">Food Magic</p></div>
+            <h1 id="r2">Review And rating</h1>
+            <h2 id="done">How was your experience about our product?</h2>
+            <div class="rating-component">
+                <div class="status-msg">
+                    <label>
+                        <input class="rating_msg" type="hidden" name="rating_msg" value=""/>
+                    </label>
+                </div>
+                <div class="stars-box">
+                    <i class="star fa fa-star" title="1 star" data-message="Poor" data-value="1"></i>
+                    <i class="star fa fa-star" title="2 stars" data-message="Too bad" data-value="2"></i>
+                    <i class="star fa fa-star" title="3 stars" data-message="Average quality" data-value="3"></i>
+                    <i class="star fa fa-star" title="4 stars" data-message="Nice" data-value="4"></i>
+                    <i class="star fa fa-star" title="5 stars" data-message="Very good quality" data-value="5"></i>
+                </div>
+                <div class="starrate">
+                    <label>
+                        <input class="ratevalue" type="hidden" name="Ratings" value=""/>
+                    </label>
+                </div>
+            </div>
+
+            <div class="feedback-tags">
+                <div class="tags-container" data-tag-set="1">
+                    <div class="question-tag">Why was your experience so bad?</div>
+                </div>
+                <div class="tags-container" data-tag-set="2">
+                    <div class="question-tag">Why was your experience so bad?</div>
+                </div>
+                <div class="tags-container" data-tag-set="3">
+                    <div class="question-tag">Why was your average rating experience?</div>
+                </div>
+                <div class="tags-container" data-tag-set="4">
+                    <div class="question-tag">Why was your experience good?</div>
+                </div>
+                <div class="tags-container" data-tag-set="5">
+                    <div class="make-compliment">
+                        <div class="compliment-container">
+                            Give a compliment
+                            <i class="far fa-smile-wink"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="tags-box">
+                    <input type="text" class="tag form-control" name="Numbers" pattern="\d{10}" minlength="10" id="inlineFormInputName" placeholder="Please enter your Number" required style="width:67%;text-align:center;"> <br>
+                    <input type="text" class="tag form-control" name="Reviews" id="inlineFormInputName" placeholder="Please enter your review here" style="height: 97px;
+                    padding-top: 0px;
+                    text-align: center;width:67%;"
+                >
+                    <input type="hidden" name="product_id" value="{{ $products->id }}" />
+                </div>
+            </div>
+
+            <div class="button-box">
+                <input type="submit" class="done btn btn-warning" disabled="disabled" value="Add review" />
+            </div>
+
+            <div class="submited-box">
+                <div class="loader"></div>
+                <div class="success-message">Thank you! Visit us Again!!</div>
+            </div>
+        </div>
+    </div>
+</form>
+    <script>
+            async function handleSubmit(event) {
+      event.preventDefault();
+      
+      const form = event.target;
+      const formData = new FormData(form);
+      
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: new URLSearchParams(formData)
+      });
+      
+      const result = await response.json();
+      
+    //   if (result.result === 'success') {
+    //     alert('Form submitted successfully!');
+    //   } else {
+    //     alert('Error submitting form: ' + result.error);
+    //   }
+    }
+        $(document).ready(function () {
+            $(".rating-component .star").on("mouseover", function () {
+                var onStar = parseInt($(this).data("value"), 10);
+                $(this).parent().children("i.star").each(function (index) {
+                    if (index < onStar) {
+                        $(this).addClass("hover");
+                    } else {
+                        $(this).removeClass("hover");
+                    }
+                });
+            }).on("mouseout", function () {
+                $(this).parent().children("i.star").each(function () {
+                    $(this).removeClass("hover");
+                });
+            });
+
+            $(".rating-component .stars-box .star").on("click", function () {
+                var onStar = parseInt($(this).data("value"), 10);
+                var stars = $(this).parent().children("i.star");
+                var ratingMessage = $(this).data("message");
+
+                for (var i = 0; i < stars.length; i++) {
+                    $(stars[i]).removeClass("selected");
+                }
+
+                for (var i = 0; i < onStar; i++) {
+                    $(stars[i]).addClass("selected");
+                }
+
+                $(".rating-component .starrate .ratevalue").val(onStar);
+                $(".status-msg .rating_msg").val(ratingMessage);
+                $(".status-msg").html(ratingMessage);
+
+                $(".fa-smile-wink").show();
+                $(".button-box .done").show();
+
+                if (onStar === 5) {
+                    $(".button-box .done").removeAttr("disabled");
+                } else {
+                    $(".button-box .done").attr("disabled", "true");
+                }
+
+                $("[data-tag-set]").hide();
+                $("[data-tag-set=" + onStar + "]").show();
+            });
+
+            $(".feedback-tags .tag").on("click", function () {
+                if ($(this).hasClass("choosed")) {
+                    $(this).removeClass("choosed");
+                } else {
+                    $(this).addClass("choosed");
+                }
+
+                if ($(".feedback-tags .tag.choosed").length > 0) {
+                    $(".button-box .done").removeAttr("disabled");
+                } else {
+                    $(".button-box .done").attr("disabled", "true");
+                }
+            });
+
+            $(".compliment-container .fa-smile-wink").on("click", function () {
+                $(this).fadeOut("slow", function () {
+                    $(".list-of-compliment").fadeIn();
+                });
+            });
+
+            $(".done").on("click", function () {
+
+                $(".rating-component").hide();
+                $(".feedback-tags").hide();
+                $(".button-box").hide();
+                $(".submited-box").show();
+                $(".submited-box .loader").show();
+
+                setTimeout(function () {
+                    $("#r2").html("Review and Ratings Done");
+                    $("#done").hide();
+                    $(".submited-box .loader").hide();
+                    $(".submited-box .success-message").show();
+                }, 1500);
+            });
+        });
+    </script>
+</body>
+</html>
