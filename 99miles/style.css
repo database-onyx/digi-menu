@@ -36,22 +36,35 @@ h1 {
   font-size: 20px;
   /* margin-bottom: 20px; */
 }
-
+@font-face {
+  font-family: 'CustomFont';
+  src: url('fonts/Cheddar_Gothic_Serif.otf') format('truetype');
+}
+@font-face {
+  font-family: 'future-tense';
+  src: url('fonts/future-tense.ttf') format('opentype');
+  font-weight: bold;
+}
 h2 {
   /* font-size: 18px; */
+
   color: #3e3e3e;
   line-height: 160%;
   /* margin-bottom: 20px; */
   margin: 0px 0px 6px 0px;
   text-align: center;
 }
+.number{
+  font-family: 'future-tense','OpenSans' !important;
+}
 .l99{
+  font-family: 'future-tense','OpenSans';
   color: #3e3e3e;
   margin-bottom: 0px;
   font-size: 35px;
 }
 .logo {
-  background-color: #fff019;
+  background-color: #fed523;
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
   line-height: 160%;
@@ -60,6 +73,7 @@ h2 {
   margin: 0px !important;
 }
 .slogan{
+  font-weight: 600;
   margin: 0px;
   font-size: 14px;
   padding: 0px;
