@@ -68,7 +68,8 @@ h2 {
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
   line-height: 160%;
-  padding: 30px 40%;
+  /* padding: 30px 40%; */
+  padding: 13px 40% 30px 40%;
   text-align: center;
   margin: 0px !important;
 }
@@ -304,7 +305,7 @@ h2 {
   border-radius: 3px;
   color: #fff;
   cursor: pointer;
-  display: none;
+  /* display: none; */
   min-width: 100px;
   padding: 10px;
 }
