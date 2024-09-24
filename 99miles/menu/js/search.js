@@ -6,7 +6,7 @@ const ORDER_EXPIRY_TIME = 4 * 60 * 60 * 1000; // 4 hours in milliseconds
 
 // Function to load menu items from an external JSON file
 function loadMenuItems() {
-    fetch('../categories/menu.json')
+    fetch('categories/menu.json')
         .then(response => response.json())
         .then(data => {
             menuItems = data;
