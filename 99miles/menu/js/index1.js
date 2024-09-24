@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     // Function to load the menu from JSON and filter based on category and vegetarian status
     function loadMenu(category, vegFilter = 'all') {
-        $.getJSON('../categories/menu.json', function (data) {
+        $.getJSON('categories/menu.json', function (data) {
             $('#menu-items').empty(); // Clear existing items
 
             // Filter menu items based on the selected category and veg/non-veg filters
