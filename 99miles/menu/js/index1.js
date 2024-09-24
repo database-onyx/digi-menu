@@ -32,8 +32,8 @@ $(document).ready(function () {
                 
 
                 var vegIcon = item.isVeg 
-                ? '<img src="../../images/v.png" style="width: 15%;">' 
-                : '<img src="../../images/nv.png" style="width: 15%;">';
+                ? '<img src="images/v.png" style="width: 15%;">' 
+                : '<img src="images/nv.png" style="width: 15%;">';
             
                 var menuItem = `
                     <div class="col-6 mb-3">
