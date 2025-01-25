@@ -930,7 +930,7 @@
         "item": 64,
         "sub": "TANDOORI STARTERS",
         "name": "TANDOORI CHICKEN (H/F)",
-        "price": " 270/520",
+        "price": " 290/560",
         "isNonVeg": true
     },
     {
@@ -2685,7 +2685,7 @@
         "item": 3,
         "sub": "NAAN & ROTTI",
         "name": "PLAIN NAAN",
-        "price": 40,
+        "price": 45,
         "isVeg": true
     },
     {
@@ -2694,7 +2694,7 @@
         "item": 4,
         "sub": "NAAN & ROTTI",
         "name": "BUTTER NAAN",
-        "price": 45,
+        "price": 50,
         "isVeg": true
     },
     {
@@ -2740,6 +2740,42 @@
         "sub": "NAAN & ROTTI",
         "name": "CHAPPATHI",
         "price": 40,
+        "isVeg": true
+    },
+    {
+        "category": "RICE-NOODLES",
+        "id": 16,
+        "item": 10,
+        "sub": "NAAN & ROTTI",
+        "name": "BUTTER GARLIC ROTTI",
+        "price": 60,
+        "isVeg": true
+    },
+    {
+        "category": "RICE-NOODLES",
+        "id": 16,
+        "item": 11,
+        "sub": "NAAN & ROTTI",
+        "name": "GARLIC BUTTER KULCHA",
+        "price": 60,
+        "isVeg": true
+    },
+    {
+        "category": "RICE-NOODLES",
+        "id": 16,
+        "item": 12,
+        "sub": "NAAN & ROTTI",
+        "name": "GARLIC BUTTER NAAN",
+        "price": 60,
+        "isVeg": true
+    },
+    {
+        "category": "RICE-NOODLES",
+        "id": 16,
+        "item": 13,
+        "sub": "NAAN & ROTTI",
+        "name": "GARLIC BUTTER ROTTI",
+        "price": 60,
         "isVeg": true
     },
     {
