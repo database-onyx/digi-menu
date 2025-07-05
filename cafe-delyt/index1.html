@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="css/istyles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .fixed-top-section {
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            background-color: white;
+            top: 0;
+        }
+        .fixed-secondtop-section {
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            background-color: white;
+            top: 10;
+        }
+        .fixed-thirdtop-section {
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            background-color: white;
+            top: 137px;
+        }
+        .padding{
+            padding-top:49%;
+        }
+        .btn-spacing {
+            margin-left: 10px;
+        }
+        .cat-nav {
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        .active-line {
+            border-bottom: 2px solid;
+        }
+        .category-card {
+            margin: 0px !important;
+            width: 8rem !important;
+            height: 6rem;
+            text-decoration: none;
+            color: black;
+        }
+        .category-card img {
+            margin-top: 10px;
+            max-width: 67%;
+            height: auto;
+            margin-bottom: 0px;
+        }
+        .category-card h4 {
+            color: black;
+            margin-top: 1rem;
+        }
+        .category-section {
+            display: none;
+        }   
+        #menu-items {
+            display: none;
+        } 
+        .cat-nav {
+            cursor: pointer;
+            padding:0px 2px;
+            white-space: nowrap;
+        }
+        
+        .active-line {
+            border-bottom: 3px solid #000;
+        }
+
+        .row.flex-nowrap {
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .col-auto {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid pt-2 fixed-top-section" style="padding-top:5% !important;">
+        <div class="row align-items-center">
+            <div class="col-6 col-md-2 d-flex justify-content-start">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <h2 style="margin: 0;font-size: 45px; font-weight: bold; color: #333;">CAFE DELYT</h2>
+                </a>
+            </div>
+            <div class="col-6 col-md-2 offset-md-8 d-flex justify-content-end">
+                <!-- Offer logo removed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Navigation -->
+    <section class="mt-5 fixed-secondtop-section" style="padding-top:7.5%">
+        <div class="container-fluid">
+            <div class="row flex-nowrap overflow-auto" id="swipeContainer">
+                <div class="col-auto">
+        <h1 class="cat-nav" id="signatureBtn">Signature</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="quickbitesBtn">Quick Bites</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="burgerBtn">Burger</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="sandwichBtn">Sandwich</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="subsandwichBtn">Sub Sandwich</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="rollswrapBtn">Rolls & Wrap</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="pizzaBtn">Pizza</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="maggieBtn">Maggie</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="pastaBtn">Pasta</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="ricebowlBtn">Rice Bowl</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="momosBtn">Momos</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="saladBtn">Salad</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="nachosBtn">Nachos</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="browniesBtn">Brownies</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="sundaesBtn">Sundaes</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="shakesBtn">Shakes</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="faloodaBtn">Falooda</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="slushesBtn">Slushes</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="juiceBtn">Juice</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="beveragesBtn">Beverages</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="baobunBtn">Bao Bun</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="quesadillasBtn">Quesadillas</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="frenchtoastBtn">French Toast</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="smoothiebowlBtn">Smoothie Bowl</h1>
+    </div>
+                <div class="col-auto">
+        <h1 class="cat-nav" id="lasagnaBtn">Lasagna</h1>
+    </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mb-2 fixed-thirdtop-section">
+        <div class="row">
+            <div class="col-4">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10">
+                        <input id="searchInput" class="form-control mt-2 me-2" type="search" placeholder='Search Food' aria-label="Search">
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="mt-2 pt-1"> 
+                    <button id="allButton" class="btn btn-outline-warning btn-sm btn-spacing"><i class="fa-solid fa-circle fa-xs"></i>&nbsp; All</button>
+                    <button id="vegButton" class="btn btn-outline-success btn-sm btn-spacing"><i class="fa-solid fa-circle fa-xs"></i>&nbsp; Veg</button>
+                    <button id="nonVegButton" class="btn btn-outline-danger btn-sm btn-spacing"><i class="fa-solid fa-circle fa-xs"></i>&nbsp; Non-veg</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-2 padding">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-9">
+                <div class="row ml-2 mr-2" id="menu-items" style="display: flex;">
+                    <!-- Dynamic content will be inserted here -->
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+
+    <ul id="ordered-items"></ul>
+
+    <!-- Popup Modal Structure -->
+    <div id="orderPopup" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeOrderPopup()">&times;</span>
+            <h1 class="pop-up-head" align="left">Orders</h1>
+            <hr>
+            <div id="orderItems" align="left"></div>
+        </div>
+    </div>
+
+    <div id="categoryDropdown3">
+        <div class="dropdown" id="order-popup-container"> 
+            <button class="btn btn-warning btn-lg menu-drop" type="button" id="viewOrder">
+                <i class="fa-regular fa-clipboard"></i> 
+            </button>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS with Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-+H1v8tD7X+RfCBI0A0ayTPc5+POTM6aUj3A5Jb20yOw09E77vFXk0NB6FXbGYJJQ" crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const signatureBtn = document.getElementById("signatureBtn");
+        const quickbitesBtn = document.getElementById("quickbitesBtn");
+        const burgerBtn = document.getElementById("burgerBtn");
+        const sandwichBtn = document.getElementById("sandwichBtn");
+        const subsandwichBtn = document.getElementById("subsandwichBtn");
+        const rollswrapBtn = document.getElementById("rollswrapBtn");
+        const pizzaBtn = document.getElementById("pizzaBtn");
+        const maggieBtn = document.getElementById("maggieBtn");
+        const pastaBtn = document.getElementById("pastaBtn");
+        const ricebowlBtn = document.getElementById("ricebowlBtn");
+        const momosBtn = document.getElementById("momosBtn");
+        const saladBtn = document.getElementById("saladBtn");
+        const nachosBtn = document.getElementById("nachosBtn");
+        const browniesBtn = document.getElementById("browniesBtn");
+        const sundaesBtn = document.getElementById("sundaesBtn");
+        const shakesBtn = document.getElementById("shakesBtn");
+        const faloodaBtn = document.getElementById("faloodaBtn");
+        const slushesBtn = document.getElementById("slushesBtn");
+        const juiceBtn = document.getElementById("juiceBtn");
+        const beveragesBtn = document.getElementById("beveragesBtn");
+        const baobunBtn = document.getElementById("baobunBtn");
+        const quesadillasBtn = document.getElementById("quesadillasBtn");
+        const frenchtoastBtn = document.getElementById("frenchtoastBtn");
+        const smoothiebowlBtn = document.getElementById("smoothiebowlBtn");
+        const lasagnaBtn = document.getElementById("lasagnaBtn");
+
+        function hideAllSections() {
+            // This will be handled by the JS file
+        }
+
+        function removeAllActiveLines() {
+            signatureBtn.classList.remove("active-line");
+            quickbitesBtn.classList.remove("active-line");
+            burgerBtn.classList.remove("active-line");
+            sandwichBtn.classList.remove("active-line");
+            subsandwichBtn.classList.remove("active-line");
+            rollswrapBtn.classList.remove("active-line");
+            pizzaBtn.classList.remove("active-line");
+            maggieBtn.classList.remove("active-line");
+            pastaBtn.classList.remove("active-line");
+            ricebowlBtn.classList.remove("active-line");
+            momosBtn.classList.remove("active-line");
+            saladBtn.classList.remove("active-line");
+            nachosBtn.classList.remove("active-line");
+            browniesBtn.classList.remove("active-line");
+            sundaesBtn.classList.remove("active-line");
+            shakesBtn.classList.remove("active-line");
+            faloodaBtn.classList.remove("active-line");
+            slushesBtn.classList.remove("active-line");
+            juiceBtn.classList.remove("active-line");
+            beveragesBtn.classList.remove("active-line");
+            baobunBtn.classList.remove("active-line");
+            quesadillasBtn.classList.remove("active-line");
+            frenchtoastBtn.classList.remove("active-line");
+            smoothiebowlBtn.classList.remove("active-line");
+            lasagnaBtn.classList.remove("active-line");
+        }
+
+        signatureBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            signatureBtn.classList.add("active-line");
+            history.replaceState(null, null, "#signatureBtn");
+        });
+
+        quickbitesBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            quickbitesBtn.classList.add("active-line");
+            history.replaceState(null, null, "#quickbitesBtn");
+        });
+
+        burgerBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            burgerBtn.classList.add("active-line");
+            history.replaceState(null, null, "#burgerBtn");
+        });
+
+        sandwichBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            sandwichBtn.classList.add("active-line");
+            history.replaceState(null, null, "#sandwichBtn");
+        });
+
+        subsandwichBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            subsandwichBtn.classList.add("active-line");
+            history.replaceState(null, null, "#subsandwichBtn");
+        });
+
+        rollswrapBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            rollswrapBtn.classList.add("active-line");
+            history.replaceState(null, null, "#rollswrapBtn");
+        });
+
+        pizzaBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            pizzaBtn.classList.add("active-line");
+            history.replaceState(null, null, "#pizzaBtn");
+        });
+
+        maggieBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            maggieBtn.classList.add("active-line");
+            history.replaceState(null, null, "#maggieBtn");
+        });
+
+        pastaBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            pastaBtn.classList.add("active-line");
+            history.replaceState(null, null, "#pastaBtn");
+        });
+
+        ricebowlBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            ricebowlBtn.classList.add("active-line");
+            history.replaceState(null, null, "#ricebowlBtn");
+        });
+
+        momosBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            momosBtn.classList.add("active-line");
+            history.replaceState(null, null, "#momosBtn");
+        });
+
+        saladBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            saladBtn.classList.add("active-line");
+            history.replaceState(null, null, "#saladBtn");
+        });
+
+        nachosBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            nachosBtn.classList.add("active-line");
+            history.replaceState(null, null, "#nachosBtn");
+        });
+
+        browniesBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            browniesBtn.classList.add("active-line");
+            history.replaceState(null, null, "#browniesBtn");
+        });
+
+        sundaesBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            sundaesBtn.classList.add("active-line");
+            history.replaceState(null, null, "#sundaesBtn");
+        });
+
+        shakesBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            shakesBtn.classList.add("active-line");
+            history.replaceState(null, null, "#shakesBtn");
+        });
+
+        faloodaBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            faloodaBtn.classList.add("active-line");
+            history.replaceState(null, null, "#faloodaBtn");
+        });
+
+        slushesBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            slushesBtn.classList.add("active-line");
+            history.replaceState(null, null, "#slushesBtn");
+        });
+
+        juiceBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            juiceBtn.classList.add("active-line");
+            history.replaceState(null, null, "#juiceBtn");
+        });
+
+        beveragesBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            beveragesBtn.classList.add("active-line");
+            history.replaceState(null, null, "#beveragesBtn");
+        });
+
+        baobunBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            baobunBtn.classList.add("active-line");
+            history.replaceState(null, null, "#baobunBtn");
+        });
+
+        quesadillasBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            quesadillasBtn.classList.add("active-line");
+            history.replaceState(null, null, "#quesadillasBtn");
+        });
+
+        frenchtoastBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            frenchtoastBtn.classList.add("active-line");
+            history.replaceState(null, null, "#frenchtoastBtn");
+        });
+
+        smoothiebowlBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            smoothiebowlBtn.classList.add("active-line");
+            history.replaceState(null, null, "#smoothiebowlBtn");
+        });
+
+        lasagnaBtn.addEventListener("click", function() {
+            hideAllSections();
+            removeAllActiveLines();
+            lasagnaBtn.classList.add("active-line");
+            history.replaceState(null, null, "#lasagnaBtn");
+        });
+    });
+    </script>
+
+    <script class="swipe script">
+    const swipeContainer = document.getElementById('swipeContainer');
+
+    function scrollToCenter(element) {
+        const containerWidth = swipeContainer.offsetWidth;
+        const elementWidth = element.offsetWidth;
+        const elementLeft = element.offsetLeft;
+        const scrollPosition = elementLeft - (containerWidth / 2) + (elementWidth / 2);
+        swipeContainer.scrollTo({
+            left: scrollPosition,
+            behavior: 'smooth'
+        });
+    }
+
+    document.querySelectorAll('.cat-nav').forEach(item => {
+        item.addEventListener('click', () => {
+            document.querySelector('.active-line').classList.remove('active-line');
+            item.classList.add('active-line');
+            scrollToCenter(item);
+        });
+    });
+
+    // Swipe handling code
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    swipeContainer.addEventListener('mousedown', (e) => {
+        isDown = true;
+        swipeContainer.classList.add('active');
+        startX = e.pageX - swipeContainer.offsetLeft;
+        scrollLeft = swipeContainer.scrollLeft;
+    });
+
+    swipeContainer.addEventListener('mouseleave', () => {
+        isDown = false;
+        swipeContainer.classList.remove('active');
+    });
+
+    swipeContainer.addEventListener('mouseup', () => {
+        isDown = false;
+        swipeContainer.classList.remove('active');
+    });
+
+    swipeContainer.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - swipeContainer.offsetLeft;
+        const walk = (x - startX) * 2;
+        swipeContainer.scrollLeft = scrollLeft - walk;
+    });
+
+    swipeContainer.addEventListener('touchstart', (e) => {
+        isDown = true;
+        startX = e.touches[0].pageX - swipeContainer.offsetLeft;
+        scrollLeft = swipeContainer.scrollLeft;
+    });
+
+    swipeContainer.addEventListener('touchend', () => {
+        isDown = false;
+    });
+
+    swipeContainer.addEventListener('touchmove', (e) => {
+        if (!isDown) return;
+        const x = e.touches[0].pageX - swipeContainer.offsetLeft;
+        const walk = (x - startX) * 2;
+        swipeContainer.scrollLeft = scrollLeft - walk;
+    });
+    </script>    
+
+    <!-- Your custom JavaScript -->
+    <script src="js/index1.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

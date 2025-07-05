@@ -1,0 +1,2332 @@
+[
+  {
+    "name": "Classic Fried Chicken",
+    "price": "89",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 1,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Classic Fried Chicken (2Pcs)",
+    "price": "169",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 2,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Classic Fried Chciken (4Pcs)",
+    "price": "329",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 3,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Bucket Chicken (8Pcs)",
+    "price": "599",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 4,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Crispy Wings (3Pcs)",
+    "price": "119",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 5,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Crispy Chicken Lollipop (3Pcs)",
+    "price": "119",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 6,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Crispy Strips (5Pcs)",
+    "price": "199",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 7,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Fried Chicken Pops",
+    "price": "159",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 8,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Crispy Shrimps",
+    "price": "199",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 9,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Crispy Fish",
+    "price": "189",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 10,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Smoked Wings (3Pcs)",
+    "price": "149",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 11,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Creamy Wings (3Pcs)",
+    "price": "179",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 12,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Smoked Chicken Tenders(7Pcs)",
+    "price": "199",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 13,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Jamaican Chicken",
+    "price": "199",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 14,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Mushroom Fries",
+    "price": "120",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 15,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Spicy Wings",
+    "price": "179",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 16,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Fish & Chips",
+    "price": "210",
+    "category": "Signature",
+    "sub": "",
+    "id": 1,
+    "item": 17,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "French Fries",
+    "price": "80",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 18,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Masala Fries",
+    "price": "90",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 19,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Mexican Spicy Fries",
+    "price": "100",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 20,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Peri Peri Fries",
+    "price": "100",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 21,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Cheese Balls (10Pcs)",
+    "price": "100",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 22,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Cheese French Fries",
+    "price": "120",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 23,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Veg Fingers (4Pcs)",
+    "price": "100",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 24,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Cheese Corn Nuggets (5Pcs)",
+    "price": "100",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 25,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chicken Nuggets (5Pcs)",
+    "price": "100",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 26,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Fish Finger(4Pcs)",
+    "price": "120",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 27,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Spicy Streaker Hot Dog (2Pcs)",
+    "price": "100",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 28,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Loaded Fries",
+    "price": "120",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 29,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Crab Lolly Pop (3Pcs)",
+    "price": "120",
+    "category": "Quick Bites",
+    "sub": "",
+    "id": 2,
+    "item": 30,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Mini Veg Burger",
+    "price": "49",
+    "category": "Burger",
+    "sub": "",
+    "id": 3,
+    "item": 31,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Veg Burger",
+    "price": "120",
+    "category": "Burger",
+    "sub": "",
+    "id": 3,
+    "item": 32,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Paneer Burger",
+    "price": "150",
+    "category": "Burger",
+    "sub": "",
+    "id": 3,
+    "item": 33,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Paneer Tikka Burger",
+    "price": "180",
+    "category": "Burger",
+    "sub": "",
+    "id": 3,
+    "item": 34,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Mini Chicken Burger",
+    "price": "79",
+    "category": "Burger",
+    "sub": "",
+    "id": 3,
+    "item": 35,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Burger",
+    "price": "140",
+    "category": "Burger",
+    "sub": "",
+    "id": 3,
+    "item": 36,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Tikka Burger",
+    "price": "200",
+    "category": "Burger",
+    "sub": "",
+    "id": 3,
+    "item": 37,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Fried Chicken Burger",
+    "price": "180",
+    "category": "Burger",
+    "sub": "",
+    "id": 3,
+    "item": 38,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "CD Style Fried Chicken Burger",
+    "price": "200",
+    "category": "Burger",
+    "sub": "",
+    "id": 3,
+    "item": 39,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Fresh Veg Sandwhich",
+    "price": "110",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 40,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chilli Cheese Sandwich",
+    "price": "150",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 41,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Sweet Corn Sandwich",
+    "price": "160",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 42,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Paneer Tikka Sandwich",
+    "price": "170",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 43,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Mushroom Sandwich",
+    "price": "170",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 44,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Veg Club Sandwich",
+    "price": "200",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 45,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Egg & Cheese  Sandwhich",
+    "price": "120",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 46,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Crispy Chicken Sandwich",
+    "price": "150",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 47,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Tikka Sandwich",
+    "price": "160",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 48,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Smoked Chicken Sandwich",
+    "price": "170",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 49,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Club Sandwich",
+    "price": "200",
+    "category": "Sandwich",
+    "sub": "",
+    "id": 4,
+    "item": 50,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Garden Fresh Sub",
+    "price": "140",
+    "category": "Sub Sandwich",
+    "sub": "",
+    "id": 5,
+    "item": 51,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Veg Sub",
+    "price": "160",
+    "category": "Sub Sandwich",
+    "sub": "",
+    "id": 5,
+    "item": 52,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Smoked Paneer Sub",
+    "price": "180",
+    "category": "Sub Sandwich",
+    "sub": "",
+    "id": 5,
+    "item": 53,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chicken Sub",
+    "price": "180",
+    "category": "Sub Sandwich",
+    "sub": "",
+    "id": 5,
+    "item": 54,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Smoked Chicken Sub",
+    "price": "200",
+    "category": "Sub Sandwich",
+    "sub": "",
+    "id": 5,
+    "item": 55,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Grilled Sausage Sub",
+    "price": "220",
+    "category": "Sub Sandwich",
+    "sub": "",
+    "id": 5,
+    "item": 56,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Twin Twist Hot Dog",
+    "price": "200",
+    "category": "Sub Sandwich",
+    "sub": "",
+    "id": 5,
+    "item": 57,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Veg Roll",
+    "price": "80",
+    "category": "Rolls & Wrap",
+    "sub": "",
+    "id": 6,
+    "item": 58,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Paneer Tikka Roll",
+    "price": "100",
+    "category": "Rolls & Wrap",
+    "sub": "",
+    "id": 6,
+    "item": 59,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Egg Roll",
+    "price": "90",
+    "category": "Rolls & Wrap",
+    "sub": "",
+    "id": 6,
+    "item": 60,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Tikka Roll",
+    "price": "140",
+    "category": "Rolls & Wrap",
+    "sub": "",
+    "id": 6,
+    "item": 61,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Kheema Roll",
+    "price": "140",
+    "category": "Rolls & Wrap",
+    "sub": "",
+    "id": 6,
+    "item": 62,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Fried Chicken Roll",
+    "price": "160",
+    "category": "Rolls & Wrap",
+    "sub": "",
+    "id": 6,
+    "item": 63,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Veg Wrap",
+    "price": "100",
+    "category": "Rolls & Wrap",
+    "sub": "Wrap",
+    "id": 6,
+    "item": 64,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Paneer Tikka Wrap",
+    "price": "120",
+    "category": "Rolls & Wrap",
+    "sub": "Wrap",
+    "id": 6,
+    "item": 65,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Egg Wrap",
+    "price": "110",
+    "category": "Rolls & Wrap",
+    "sub": "Wrap",
+    "id": 6,
+    "item": 66,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Tikka Wrap",
+    "price": "160",
+    "category": "Rolls & Wrap",
+    "sub": "Wrap",
+    "id": 6,
+    "item": 67,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Kheema Wrap",
+    "price": "160",
+    "category": "Rolls & Wrap",
+    "sub": "Wrap",
+    "id": 6,
+    "item": 68,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Fried Chicken Wrap",
+    "price": "180",
+    "category": "Rolls & Wrap",
+    "sub": "Wrap",
+    "id": 6,
+    "item": 69,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Margherita Pizza",
+    "price": "130",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 70,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Veg Fest Pizza",
+    "price": "150",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 71,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Paneer Tikka Pizza",
+    "price": "170",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 72,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Sweet Corn Pizza",
+    "price": "170",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 73,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Mushroom Pizza",
+    "price": "180",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 74,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Any Two Mixed Veg Pizza",
+    "price": "200",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 75,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Cafe Delyts  Special Veg Pizza",
+    "price": "250",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 76,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Mexican Pop Pizza",
+    "price": "150",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 77,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chicken Tikka Pizza",
+    "price": "180",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 78,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Sausage Pizza",
+    "price": "180",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 79,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken Salami Pizza",
+    "price": "190",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 80,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Any Two Mixed Non Veg Pizza",
+    "price": "220",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 81,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Cafe Delight Special Non Veg Pizza",
+    "price": "280",
+    "category": "Pizza",
+    "sub": "",
+    "id": 7,
+    "item": 82,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Masala Maggie",
+    "price": "100",
+    "category": "Maggie",
+    "sub": "",
+    "id": 8,
+    "item": 83,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Cheese Maggie",
+    "price": "120",
+    "category": "Maggie",
+    "sub": "",
+    "id": 8,
+    "item": 84,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Schezwan Maggie",
+    "price": "120",
+    "category": "Maggie",
+    "sub": "",
+    "id": 8,
+    "item": 85,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Masala Maggie",
+    "price": "120",
+    "category": "Maggie",
+    "sub": "",
+    "id": 8,
+    "item": 86,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Cheese Maggie",
+    "price": "140",
+    "category": "Maggie",
+    "sub": "",
+    "id": 8,
+    "item": 87,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Schezwan Maggie",
+    "price": "140",
+    "category": "Maggie",
+    "sub": "",
+    "id": 8,
+    "item": 88,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Creamy Cheese Pasta",
+    "price": "160",
+    "category": "Pasta",
+    "sub": "",
+    "id": 9,
+    "item": 89,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Tangry Red Pasta",
+    "price": "150",
+    "category": "Pasta",
+    "sub": "",
+    "id": 9,
+    "item": 90,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Pink Sauce Pasta",
+    "price": "170",
+    "category": "Pasta",
+    "sub": "",
+    "id": 9,
+    "item": 91,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Jamaican Pasta",
+    "price": "180",
+    "category": "Pasta",
+    "sub": "",
+    "id": 9,
+    "item": 92,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Creamy Cheese Pasta",
+    "price": "180",
+    "category": "Pasta",
+    "sub": "",
+    "id": 9,
+    "item": 94,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Tangry Red Pasta",
+    "price": "170",
+    "category": "Pasta",
+    "sub": "",
+    "id": 9,
+    "item": 94,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Pink Sauce Pasta",
+    "price": "190",
+    "category": "Pasta",
+    "sub": "",
+    "id": 9,
+    "item": 95,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Jamaican Pasta",
+    "price": "200",
+    "category": "Pasta",
+    "sub": "",
+    "id": 9,
+    "item": 96,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Peri Peri Rice",
+    "price": "150",
+    "category": "Rice Bowl",
+    "sub": "",
+    "id": 10,
+    "item": 97,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Jamican Rice",
+    "price": "160",
+    "category": "Rice Bowl",
+    "sub": "",
+    "id": 10,
+    "item": 98,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Mexican Rice",
+    "price": "170",
+    "category": "Rice Bowl",
+    "sub": "",
+    "id": 10,
+    "item": 99,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Peri Peri Rice",
+    "price": "180",
+    "category": "Rice Bowl",
+    "sub": "",
+    "id": 10,
+    "item": 100,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Jamican Rice",
+    "price": "200",
+    "category": "Rice Bowl",
+    "sub": "",
+    "id": 10,
+    "item": 101,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Mexican Rice",
+    "price": "220",
+    "category": "Rice Bowl",
+    "sub": "",
+    "id": 10,
+    "item": 102,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Mixed Veg Momo",
+    "price": "100",
+    "category": "Momos",
+    "sub": "Steamed",
+    "id": 11,
+    "item": 103,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Paneer Tikka Momo",
+    "price": "120",
+    "category": "Momos",
+    "sub": "Steamed",
+    "id": 11,
+    "item": 104,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chicken Hariyali",
+    "price": "140",
+    "category": "Momos",
+    "sub": "Steamed",
+    "id": 11,
+    "item": 105,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "BBQ Chicken Momo",
+    "price": "150",
+    "category": "Momos",
+    "sub": "Steamed",
+    "id": 11,
+    "item": 106,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Peri Peri Chicken Momo",
+    "price": "140",
+    "category": "Momos",
+    "sub": "Steamed",
+    "id": 11,
+    "item": 107,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Mixed Veg Momo",
+    "price": "120",
+    "category": "Momos",
+    "sub": "Fried",
+    "id": 11,
+    "item": 108,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Paneer Tikka Momo",
+    "price": "140",
+    "category": "Momos",
+    "sub": "Fried",
+    "id": 11,
+    "item": 109,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chicken Hariyali",
+    "price": "160",
+    "category": "Momos",
+    "sub": "Fried",
+    "id": 11,
+    "item": 110,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "BBQ Chicken Momo",
+    "price": "170",
+    "category": "Momos",
+    "sub": "Fried",
+    "id": 11,
+    "item": 111,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Peri Peri Chicken Momo",
+    "price": "160",
+    "category": "Momos",
+    "sub": "Fried",
+    "id": 11,
+    "item": 112,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Farmer Greek Salad",
+    "price": "160",
+    "category": "Salad",
+    "sub": "",
+    "id": 12,
+    "item": 113,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Caesar Salad",
+    "price": "170",
+    "category": "Salad",
+    "sub": "",
+    "id": 12,
+    "item": 114,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chicken Salad",
+    "price": "180",
+    "category": "Salad",
+    "sub": "",
+    "id": 12,
+    "item": 115,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Grilled Prawn With Veggie",
+    "price": "250",
+    "category": "Salad",
+    "sub": "",
+    "id": 12,
+    "item": 116,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Grilled Chicken Breast With Veggie",
+    "price": "190",
+    "category": "Salad",
+    "sub": "",
+    "id": 12,
+    "item": 117,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Grilled Mushroom With Veggie",
+    "price": "160",
+    "category": "Salad",
+    "sub": "",
+    "id": 12,
+    "item": 118,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Fruit Salad",
+    "price": "150",
+    "category": "Salad",
+    "sub": "",
+    "id": 12,
+    "item": 119,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Loaded Veg Nachos",
+    "price": "160",
+    "category": "Nachos",
+    "sub": "",
+    "id": 13,
+    "item": 120,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Loaded Chicken Nachos",
+    "price": "190",
+    "category": "Nachos",
+    "sub": "",
+    "id": 13,
+    "item": 121,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Plain Brownie",
+    "price": "90",
+    "category": "Brownies",
+    "sub": "",
+    "id": 14,
+    "item": 122,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Hot Brownie Scoop",
+    "price": "150",
+    "category": "Brownies",
+    "sub": "",
+    "id": 14,
+    "item": 123,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Choco Nutties",
+    "price": "180",
+    "category": "Brownies",
+    "sub": "",
+    "id": 14,
+    "item": 124,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Hot Sizzling Brownie",
+    "price": "200",
+    "category": "Brownies",
+    "sub": "",
+    "id": 14,
+    "item": 125,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Dual Fudge Brownie",
+    "price": "190",
+    "category": "Brownies",
+    "sub": "",
+    "id": 14,
+    "item": 126,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Brownie Boat",
+    "price": "200",
+    "category": "Brownies",
+    "sub": "",
+    "id": 14,
+    "item": 127,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Vanilla Classic Sundaes",
+    "price": "130",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 128,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Black Forest Delight",
+    "price": "180",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 129,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Fruits And Nuts",
+    "price": "179",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 130,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Sky Scraper",
+    "price": "199",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 131,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Titanic",
+    "price": "189",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 132,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Tru-Fun-Sundae",
+    "price": "195",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 133,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Nutty Crunch",
+    "price": "199",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 134,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Fruit Fit",
+    "price": "169",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 135,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Hey Berries",
+    "price": "189",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 136,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Double Chocolate",
+    "price": "199",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 137,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Banana Royal Sundae",
+    "price": "180",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 138,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Caramel Fruit Feast",
+    "price": "199",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 139,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Tempting Moments",
+    "price": "189",
+    "category": "Sundaes",
+    "sub": "",
+    "id": 15,
+    "item": 140,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Vanilla Shakes",
+    "price": "140",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 141,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Strawberry Shakes",
+    "price": "140",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 142,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Butterscotch Shakes",
+    "price": "150",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 143,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Blackcurrent Shake",
+    "price": "150",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 144,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Dry Fruit Shake",
+    "price": "170",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 145,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Oreo Banana Shake",
+    "price": "160",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 146,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Banana Berry Shake",
+    "price": "160",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 147,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Oreo Coffee Shake",
+    "price": "160",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 148,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Brownie Coffee Shake",
+    "price": "160",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 149,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Mango Shake",
+    "price": "170",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 150,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Plain Brownie Shake",
+    "price": "170",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 151,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Plain Oreo Shake",
+    "price": "160",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 152,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chocolate Shake",
+    "price": "160",
+    "category": "Shakes",
+    "sub": "Shakes",
+    "id": 16,
+    "item": 153,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Vanilla Thick shake",
+    "price": "170",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 154,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Strawberry Thick shake",
+    "price": "170",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 155,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Butterscotch Thick shake",
+    "price": "180",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 156,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Blackcurrent Thick shake",
+    "price": "180",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 157,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Dry Fruit Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 158,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Oreo Banana Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 159,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Banana Berry Thick shake",
+    "price": "180",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 160,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Oreo Coffee Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 161,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Brownie Coffee Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 162,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Mango Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 163,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Plain Brownie Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 164,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Plain Oreo Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 165,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chocolate Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 166,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Choco Brownie Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 167,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Ferrero Rocher Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 168,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Kitkat Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 169,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chill Milo Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 170,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Banana Caramel Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 171,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Caramel Chocolate  Thick shake",
+    "price": "190",
+    "category": "Shakes",
+    "sub": "Thick shakes",
+    "id": 16,
+    "item": 172,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Fruit Full Falooda",
+    "price": "179",
+    "category": "Falooda",
+    "sub": "",
+    "id": 17,
+    "item": 173,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Rose Falooda",
+    "price": "179",
+    "category": "Falooda",
+    "sub": "",
+    "id": 17,
+    "item": 174,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Dry Fruit Falooda",
+    "price": "189",
+    "category": "Falooda",
+    "sub": "",
+    "id": 17,
+    "item": 175,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Royal Falooda",
+    "price": "199",
+    "category": "Falooda",
+    "sub": "",
+    "id": 17,
+    "item": 176,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chocolate Falooda",
+    "price": "179",
+    "category": "Falooda",
+    "sub": "",
+    "id": 17,
+    "item": 177,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Mojito Mint",
+    "price": "100",
+    "category": "Slushes",
+    "sub": "",
+    "id": 18,
+    "item": 178,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Green Apple",
+    "price": "110",
+    "category": "Slushes",
+    "sub": "",
+    "id": 18,
+    "item": 179,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Melon Berry",
+    "price": "120",
+    "category": "Slushes",
+    "sub": "",
+    "id": 18,
+    "item": 180,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Blue Moon",
+    "price": "100",
+    "category": "Slushes",
+    "sub": "",
+    "id": 18,
+    "item": 181,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Sweet & Salt Soda",
+    "price": "70",
+    "category": "Slushes",
+    "sub": "",
+    "id": 18,
+    "item": 182,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Spicy Soda",
+    "price": "80",
+    "category": "Slushes",
+    "sub": "",
+    "id": 18,
+    "item": 183,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Spicy Mojito",
+    "price": "110",
+    "category": "Slushes",
+    "sub": "",
+    "id": 18,
+    "item": 184,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Apple Juice",
+    "price": "80",
+    "category": "Juice",
+    "sub": "",
+    "id": 19,
+    "item": 185,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Orange Juice",
+    "price": "70",
+    "category": "Juice",
+    "sub": "",
+    "id": 19,
+    "item": 186,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Pomegranate Juice",
+    "price": "80",
+    "category": "Juice",
+    "sub": "",
+    "id": 19,
+    "item": 187,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Muskmelon Juice",
+    "price": "80",
+    "category": "Juice",
+    "sub": "",
+    "id": 19,
+    "item": 188,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Watermelon Juice",
+    "price": "50",
+    "category": "Juice",
+    "sub": "",
+    "id": 19,
+    "item": 189,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Grapes Juice",
+    "price": "60",
+    "category": "Juice",
+    "sub": "",
+    "id": 19,
+    "item": 190,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Sapota Juice",
+    "price": "60",
+    "category": "Juice",
+    "sub": "",
+    "id": 19,
+    "item": 191,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Mango ( Season Only )",
+    "price": "50",
+    "category": "Juice",
+    "sub": "",
+    "id": 19,
+    "item": 192,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Kiwi Juice",
+    "price": "120",
+    "category": "Juice",
+    "sub": "",
+    "id": 19,
+    "item": 193,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Filter Coffee",
+    "price": "40",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 194,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Ginger Tea",
+    "price": "40",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 195,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Black Tea",
+    "price": "30",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 196,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Masala Tea",
+    "price": "40",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 197,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Black Coffee",
+    "price": "30",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 198,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Creamy Coffee",
+    "price": "60",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 199,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Hot Chocolate",
+    "price": "130",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 200,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Cold Coffee",
+    "price": "130",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 201,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Lemon Tea",
+    "price": "30",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 202,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Frappe",
+    "price": "170",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 203,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Chocolate Frappe",
+    "price": "180",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 204,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Café Frost",
+    "price": "160",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 205,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Hibiscus Tea",
+    "price": "60",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 206,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Green Tea",
+    "price": "30",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 207,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Cardamon Tea",
+    "price": "30",
+    "category": "Beverages",
+    "sub": "",
+    "id": 20,
+    "item": 208,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Veg Crust",
+    "price": "120",
+    "category": "Bao Bun",
+    "sub": "",
+    "id": 21,
+    "item": 209,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Spicy Paneer",
+    "price": "160",
+    "category": "Bao Bun",
+    "sub": "",
+    "id": 21,
+    "item": 210,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Paneer Tikka",
+    "price": "180",
+    "category": "Bao Bun",
+    "sub": "",
+    "id": 21,
+    "item": 211,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Jamaican Paneer",
+    "price": "200",
+    "category": "Bao Bun",
+    "sub": "",
+    "id": 21,
+    "item": 212,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Fried Chicken",
+    "price": "130",
+    "category": "Bao Bun",
+    "sub": "",
+    "id": 21,
+    "item": 213,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Spicy Chicken",
+    "price": "150",
+    "category": "Bao Bun",
+    "sub": "",
+    "id": 21,
+    "item": 214,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken BBQ",
+    "price": "180",
+    "category": "Bao Bun",
+    "sub": "",
+    "id": 21,
+    "item": 215,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Jamaican Chicken",
+    "price": "200",
+    "category": "Bao Bun",
+    "sub": "",
+    "id": 21,
+    "item": 216,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Sweet Corn",
+    "price": "180",
+    "category": "Quesadillas",
+    "sub": "",
+    "id": 22,
+    "item": 217,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Paneer Tikka",
+    "price": "200",
+    "category": "Quesadillas",
+    "sub": "",
+    "id": 22,
+    "item": 218,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Spicy Mushroom",
+    "price": "200",
+    "category": "Quesadillas",
+    "sub": "",
+    "id": 22,
+    "item": 219,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Peri Peri Chicken",
+    "price": "220",
+    "category": "Quesadillas",
+    "sub": "",
+    "id": 22,
+    "item": 220,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Chicken BBQ",
+    "price": "220",
+    "category": "Quesadillas",
+    "sub": "",
+    "id": 22,
+    "item": 221,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Fried Chicken",
+    "price": "200",
+    "category": "Quesadillas",
+    "sub": "",
+    "id": 22,
+    "item": 222,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Sugar Rush Toast",
+    "price": "170",
+    "category": "French Toast",
+    "sub": "",
+    "id": 23,
+    "item": 223,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Strawberry Banana Toast",
+    "price": "190",
+    "category": "French Toast",
+    "sub": "",
+    "id": 23,
+    "item": 224,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Choco Hazel Toast",
+    "price": "180",
+    "category": "French Toast",
+    "sub": "",
+    "id": 23,
+    "item": 225,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Classic French With Egg",
+    "price": "150",
+    "category": "French Toast",
+    "sub": "",
+    "id": 23,
+    "item": 226,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Classic French Toast With Grilled Breast",
+    "price": "199",
+    "category": "French Toast",
+    "sub": "",
+    "id": 23,
+    "item": 227,
+    "isVeg": false,
+    "isNonVeg": true
+  },
+  {
+    "name": "Hawallan",
+    "price": "190",
+    "category": "Smoothie Bowl",
+    "sub": "",
+    "id": 24,
+    "item": 228,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Sunrise",
+    "price": "180",
+    "category": "Smoothie Bowl",
+    "sub": "",
+    "id": 24,
+    "item": 229,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Troopical",
+    "price": "210",
+    "category": "Smoothie Bowl",
+    "sub": "",
+    "id": 24,
+    "item": 230,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Guavagoodness",
+    "price": "190",
+    "category": "Smoothie Bowl",
+    "sub": "",
+    "id": 24,
+    "item": 231,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Lasagna (Veg)",
+    "price": "250",
+    "category": "Lasagna",
+    "sub": "",
+    "id": 25,
+    "item": 232,
+    "isVeg": true,
+    "isNonVeg": false
+  },
+  {
+    "name": "Lasagna (NV)",
+    "price": "280",
+    "category": "Lasagna",
+    "sub": "",
+    "id": 25,
+    "item": 233,
+    "isVeg": false,
+    "isNonVeg": true
+  }
+]
